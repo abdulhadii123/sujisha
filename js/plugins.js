@@ -3858,7 +3858,8 @@ var trim = String.prototype.trim ?
 function initMap() {
 
     var map = new google.maps.Map(document.getElementById('ieatmaps'), {
-      center: {lat: 34.0937458, lng: -118.3614978},
+      // Changed the center coordinates to Wayanad
+      center: {lat: 11.6853, lng: 76.1309}, 
       zoom: 12,
       styles: [
     {
@@ -4030,8 +4031,9 @@ function initMap() {
     });
 
     var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(34.0937458, -118.3614978)
-        , title: 'ASL'
+        // Changed the marker position to Wayanad
+        position: new google.maps.LatLng(11.6853, 76.1309) 
+        , title: 'Wayanad' // Changed the title to Wayanad
         , map : map
 
     });
