@@ -321,7 +321,7 @@ body.dark .loader_line:after{
 	float: left;
 	clear: both;
 	background-color: #fff;
-	padding: 15px 0px;
+	padding: 7px 0px;
 	box-shadow: 0px 0px 10px rgba(0,0,0,.08);
 }
 .edina_tm_mobile_menu .mobile_in{
@@ -334,7 +334,7 @@ body.dark .loader_line:after{
 	justify-content: space-between;
 }
 .edina_tm_mobile_menu .mobile_in .logo img{
-	max-width: 100px;
+	max-width: 90px;
 }
 .my_trigger .hamburger-box{
 	display: block;
